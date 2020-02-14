@@ -4,5 +4,7 @@ This app is currently under development and will eventually be released under an
 
 It serves to map flight data for unmanned and manned aircraft 
 
-Additionally it allows the user to manipulate distance delimiters that will show when and where flights were within certain distances of each other
+Additionally it allows the user manipulate parameters that will show where encounters between aircraft occur
+
+additionally metrics relating to the flights are displayed 
 
