@@ -8,3 +8,9 @@ it allows the user manipulate parameters that will show where encounters between
 
 additionally metrics relating to the flights are displayed 
 
+''' 
+widget functionality has currently been removed due to implementation of new features including backend functions to pass in parameters to mappDataframe class
+
+GUI and wiget functionality will be updated and reimplemented within 48 hours.
+
+'''
