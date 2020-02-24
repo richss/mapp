@@ -17,7 +17,10 @@ screenshots show functionality with different parameters
 
 spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned flights
 
-![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/spaghettiSoup.png)
+         ![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/spaghettiSoup.png)
+
+
+
 
          objects ; 
               uas flight path : pink ; polyline
@@ -31,10 +34,13 @@ adsbOne ; displays one individual manned flight and the dictionary of unmanned f
 
          encounterDistance = 0 feet
 
+         ![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/adsbOne.png)
+
 encounterOne ; displays adsbOne with higher distance around unmanned flight locations ; 
 
          encounterDistance = 3000 feet
    
+          ![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/encounterOne.png)
    
 
 
