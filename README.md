@@ -16,7 +16,8 @@ additionally metrics relating to the flights are displayed
 
 ****
 
-spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned flights
+**spaghettiSoup** ; 
+displays entire dictionary worth of manned flights & unmanned flights
 
 ![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/spaghettiSoup.png)
 
@@ -31,13 +32,15 @@ spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned fl
                   *(when an unmanned heat bubble is in contact with any contained points:
                            manned flight path is colored gold )
 
-adsbOne ; displays one individual manned flight and the dictionary of unmanned flights; 
+**adsbOne** ; 
+displays one individual manned flight and the dictionary of unmanned flights; 
 
          encounterDistance = 0 feet
 
 ![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/adsbOne.png)
 
-encounterOne ; displays adsbOne with higher distance around unmanned flight locations ; 
+**encounterOne** ; 
+displays adsbOne with higher distance around unmanned flight locations ; 
 
          encounterDistance = 3000 feet
    
