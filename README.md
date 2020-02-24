@@ -13,7 +13,7 @@ additionally metrics relating to the flights are displayed
 ****
 
 
-screenshots show functionality with different parameters
+**screenshots show functionality with different parameters**
 
 spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned flights
 
