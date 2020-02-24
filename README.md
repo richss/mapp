@@ -15,3 +15,17 @@ additionally metrics relating to the flights are displayed
 
 screenshots show functionality with different parameters
 
+spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned flights
+
+         objects ; 
+              uas flight path : pink ; polyline
+              uas heat bubble : dark red ; moderately translucent ; circle
+              manned flight path : blue ; polyline
+
+adsbOne ; displays one individual manned flight and the dictionary of unmanned flights; encounterDistance = 0 feet
+
+encounterOne ; displays adsbOne with higher distance around points ; encounterDistance = 3000 feet
+   
+   
+
+
