@@ -20,7 +20,7 @@ spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned fl
          objects ; 
               uas flight path : pink ; polyline
               uas heat bubble : dark red ; moderately translucent ; circle
-                  *(distance around points within uas flight path is equivalent to encounterDistance in FEET)
+                  *(distance around points within uas flight path is equivalent to encounterDistance in feet)
               manned flight path : blue ; polyline
                   *(when an unmanned heat bubble is in contact with any contained points:
                            manned flight path is colored gold )
