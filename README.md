@@ -17,7 +17,7 @@ screenshots show functionality with different parameters
 
 spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned flights
 
-![Image description]https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/spaghettiSoup.png
+![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/spaghettiSoup.png)
 
          objects ; 
               uas flight path : pink ; polyline
