@@ -22,9 +22,13 @@ spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned fl
               uas heat bubble : dark red ; moderately translucent ; circle
               manned flight path : blue ; polyline
 
-adsbOne ; displays one individual manned flight and the dictionary of unmanned flights; encounterDistance = 0 feet
+adsbOne ; displays one individual manned flight and the dictionary of unmanned flights; 
 
-encounterOne ; displays adsbOne with higher distance around points ; encounterDistance = 3000 feet
+         encounterDistance = 0 feet
+
+encounterOne ; displays adsbOne with higher distance around points ; 
+
+         encounterDistance = 3000 feet
    
    
 
