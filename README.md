@@ -26,7 +26,7 @@ adsbOne ; displays one individual manned flight and the dictionary of unmanned f
 
          encounterDistance = 0 feet
 
-encounterOne ; displays adsbOne with higher distance around points ; 
+encounterOne ; displays adsbOne with higher distance around unmanned flight locations ; 
 
          encounterDistance = 3000 feet
    
