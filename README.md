@@ -21,7 +21,7 @@ spaghettiSoup ; displays entire dictionary worth of manned flights & unmanned fl
               uas flight path : pink ; polyline
               uas heat bubble : dark red ; moderately translucent ; circle
               manned flight path : blue ; polyline
-                  (when an unmanned heat bubble is in contact with any contained points:
+                  *(when an unmanned heat bubble is in contact with any contained points:
                            manned flight path is colored gold )
 
 adsbOne ; displays one individual manned flight and the dictionary of unmanned flights; 
