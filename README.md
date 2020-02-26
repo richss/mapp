@@ -46,5 +46,33 @@ displays adsbOne with higher distance around unmanned flight locations ;
    
 ![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/encounterOne.png)
    
+**dablaanc.png**
+
+geojson of FAA LAANC authorization grid overlaid with display of manned & unmanned flights ;
+
+         encounterDistance = 1000
+
+   
+![Image description](https://raw.githubusercontent.com/nyetzsche/mapp/master/screenshots/dablaanc.png)
 
 
+code for geojson import below 
+
+         from ipyleaflet import Map, GeoJSON
+         import json
+         import os
+         import requests
+
+         if not os.path.exists('30b525681586478f8b6549985f23c40b_0.geojson'):
+             url = 'https://opendata.arcgis.com/datasets/30b525681586478f8b6549985f23c40b_0.geojson'
+             r = requests.get(url)
+             with open('30b525681586478f8b6549985f23c40b_0.geojson', 'w') as f:
+                 f.write(r.content.decode("utf-8"))
+
+         with open('30b525681586478f8b6549985f23c40b_0.geojson', 'r') as f:
+             data = json.load(f)
+
+
+         geo_json = GeoJSON(data=data, style = {'color': 'green', 'opacity':1, 'weight':1.9, 'dashArray':'9', 'fillOpacity':0.1})
+         
+         mapp.mapp.add_layer(geo_json)
